@@ -1,10 +1,10 @@
 let zufall = Math.floor(Math.random()*1000+1);
-let eingabe = Number(window.prompt("Wie lautet die zahl?"));
+let eingabe = Number(window.prompt("Guess the number between 1 and 1000"));
 while (eingabe != zufall) {
     if (eingabe < zufall) {
-        eingabe = Number(window.prompt("die zahl ist zu klein"));
+        eingabe = Number(window.prompt("The Number is too small."));
     } else if (eingabe > zufall) {
-        eingabe = Number(window.prompt("die zahl ist zu gros"));
+        eingabe = Number(window.prompt("The number is too big"));
     }
 }
 // document.writeln("Erraten: Die richtige Zahl ist: " + zufall);
