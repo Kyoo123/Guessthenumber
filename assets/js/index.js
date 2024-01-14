@@ -1,5 +1,5 @@
 let zufall = Math.floor(Math.random()*100+1);
-let eingabe = Number(window.prompt("Guess the number between 1 and 1000"));
+let eingabe = Number(window.prompt("Guess the number between 1 and 100"));
 while (eingabe != zufall) {
     if (eingabe < zufall) {
         eingabe = Number(window.prompt("The Number is too small."));
