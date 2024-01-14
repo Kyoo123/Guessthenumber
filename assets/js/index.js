@@ -1,4 +1,4 @@
-let zufall = Math.floor(Math.random()*1000+1);
+let zufall = Math.floor(Math.random()*100+1);
 let eingabe = Number(window.prompt("Guess the number between 1 and 1000"));
 while (eingabe != zufall) {
     if (eingabe < zufall) {
